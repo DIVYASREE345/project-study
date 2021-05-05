@@ -1,38 +1,56 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: bisque !important;
+}
+body .bg-dark {
+    background-color: cornflowerblue !important;
+}
+.bg {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg2 {
+    height: 400px;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-primary {
+    margin: 20px;
+    background-color: orange !important;
+}
+.btn-primary:hover {
+    background-color: blue !important;
+    border-color: orangered !important;
+}
+.navbar .navbar-nav > li > a:hover {
+    background-color: red !important;
+}
+.navbar-brand,
+.navbar-nav {
+    color: black !important;
+}
+.nav-link {
+    color: white !important;
+}
+.nav-link:hover {
+    color: #fb7840 !important;
+}
+.jumbotron {
+    background: none !important;
+    padding-top: 4%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.player-wrapper {
+    position: relative;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.react-player {
+    display: block;
+    margin: auto;
 }
