@@ -4,9 +4,10 @@
 
 body {
     background-color: bisque !important;
+    font-family: "Fredoka One", cursive !important;
 }
 body .bg-dark {
-    background-color: cornflowerblue !important;
+    background: none !important;
 }
 .bg {
     height: 100%;
@@ -23,10 +24,13 @@ body .bg-dark {
 
 .btn-primary {
     margin: 20px;
-    background-color: orange !important;
+    background-color: #eb822e !important;
+    width: 350px;
+    height: 70px;
+    font-weight: bold;
 }
 .btn-primary:hover {
-    background-color: blue !important;
+    background-color: cornflowerblue !important;
     border-color: orangered !important;
 }
 .navbar .navbar-nav > li > a:hover {
@@ -34,21 +38,21 @@ body .bg-dark {
 }
 .navbar-brand,
 .navbar-nav {
-    color: black !important;
+    color: #e9d366 !important;
 }
 .nav-link {
     color: white !important;
 }
 .nav-link:hover {
-    color: #fb7840 !important;
+    color: #eb822e !important;
 }
 .jumbotron {
     background: none !important;
-    padding-top: 4%;
 }
 
 .player-wrapper {
     position: relative;
+    margin-top: 20%;
 }
 .react-player {
     display: block;
