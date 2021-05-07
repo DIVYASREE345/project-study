@@ -6,20 +6,13 @@ function Footer() {
         <div>
             <Navbar
                 className="d-flex justify-content-between"
-                style={{
-                    backgroundColor: "#E9D366",
-                    color: "#0067CF",
-                    width: "100%",
-                    paddingLeft: "10%",
-                    paddingRight: "10%",
-                }}
                 sticky="Bottom"
                 collapseOnSelect
                 expand="lg"
             >
                 <Nav>
                     <Nav.Item>
-                        <Nav.Link style={{ color: "#0067CF" }} href="#privacy">
+                        <Nav.Link href="#privacy">
                             | Privacy Policy | Disclaimer |
                         </Nav.Link>
                     </Nav.Item>
@@ -30,15 +23,14 @@ function Footer() {
                 </Nav>
 
                 <Nav>
-                    <Nav.Item style={{ color: "#0067CF" }}>
+                    <Nav.Item>
                         <i
-                            class="fa fa-envelope-square fa-2x"
+                            class="fa fa-envelope-square fa-2x mail"
                             style={{ paddingRight: "20px" }}
                         ></i>
-                        <a href="https://github.com/FortAwesome/Font-Awesome">
+                        <a href="https://github.com/hyf-Group2-fp/Just4Giving">
                             <i
-                                class="fa fa-github fa-2x"
-                                style={{ color: "#0067CF" }}
+                                class="fa fa-github fa-2x github"
                                 aria-hidden="true"
                             ></i>
                         </a>
