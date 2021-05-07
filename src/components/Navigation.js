@@ -12,7 +12,7 @@ function Navigation() {
                             width="60"
                             height="60"
                             className="d-inline-block align-top"
-                            alt="React Bootstrap logo"
+                            alt="just4giving logo"
                         />
                         JUST4GIVING
                     </Navbar.Brand>

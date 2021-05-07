@@ -124,12 +124,19 @@ body .bg-dark {
 .github {
     color: white;
 }
+.github:hover {
+    color: orange;
+}
 .mail {
     color: white;
 }
+.mail:hover {
+    color: orange;
+}
 #videoh {
     color: #e9d366;
-    font-size: 50px;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px #000000;
 }
 @media only screen and (max-width: 800px) {
     .bg2 {
