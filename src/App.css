@@ -3,7 +3,6 @@
 }
 
 body {
-    background-color: bisque !important;
     font-family: "Fredoka One", cursive !important;
 }
 body .bg-dark {
@@ -36,18 +35,9 @@ body .bg-dark {
 .navbar .navbar-nav > li > a:hover {
     background-color: red !important;
 }
-.navbar-brand,
-.navbar-nav {
-    color: #e9d366 !important;
-}
-.nav-link {
-    color: white !important;
-}
+
 .nav-link:hover {
     color: #eb822e !important;
-}
-.jumbotron {
-    background: none !important;
 }
 
 .player-wrapper {

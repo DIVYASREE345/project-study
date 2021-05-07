@@ -14,7 +14,7 @@ function Demo() {
                 className="bg"
                 style={{ backgroundImage: `url(${background})` }}
             >
-                <Jumbotron>
+                <Jumbotron style={{ background: "none" }}>
                     <h1
                         style={{
                             fontSize: "50px",

@@ -4,8 +4,13 @@ import logo from "../images/logo22.png";
 function Navigation() {
     return (
         <div className="margin-t-b">
-            <Navbar collapseOnSelect expand="lg" bg="dark" sticky="top">
-                <Navbar bg="dark">
+            <Navbar
+                style={{ backgroundColor: "#66CBDF" }}
+                collapseOnSelect
+                expand="lg"
+                sticky="top"
+            >
+                <Navbar>
                     <Navbar.Brand href="#home">
                         <img
                             src={logo}
@@ -39,10 +44,20 @@ function Navigation() {
                         }}
                     >
                         <Nav.Item style={{ marginRight: "20px" }}>
-                            <Nav.Link href="#aboutus">About Us</Nav.Link>
+                            <Nav.Link
+                                style={{ color: "white" }}
+                                href="#aboutus"
+                            >
+                                About Us
+                            </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link href="#logingiver">Login</Nav.Link>
+                            <Nav.Link
+                                style={{ color: "white" }}
+                                href="#logingiver"
+                            >
+                                Login
+                            </Nav.Link>
                         </Nav.Item>
                     </Nav>
                 </Navbar.Collapse>
