@@ -12,7 +12,7 @@ function Footer() {
             >
                 <Nav>
                     <Nav.Item>
-                        <Nav.Link href="#privacy">
+                        <Nav.Link href="/privacy">
                             | Privacy Policy | Disclaimer |
                         </Nav.Link>
                     </Nav.Item>
@@ -24,16 +24,21 @@ function Footer() {
 
                 <Nav>
                     <Nav.Item>
-                        <i
-                            class="fa fa-envelope-square fa-2x mail"
-                            style={{ paddingRight: "20px" }}
-                        ></i>
-                        <a href="https://github.com/hyf-Group2-fp/Just4Giving">
+                        <Nav.Link href="/contactus">
+                            {" "}
+                            <i
+                                class="fa fa-envelope-square fa-2x mail"
+                                style={{ paddingRight: "20px" }}
+                            ></i>
+                        </Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href="https://github.com/hyf-Group2-fp/Just4Giving">
                             <i
                                 class="fa fa-github fa-2x github"
                                 aria-hidden="true"
                             ></i>
-                        </a>
+                        </Nav.Link>
                     </Nav.Item>
                 </Nav>
             </Navbar>
