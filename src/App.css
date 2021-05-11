@@ -138,6 +138,15 @@ body .bg-dark {
     font-size: 40px;
     text-shadow: 2px 2px 4px #000000;
 }
+.learn {
+    margin-top: 10%;
+    margin-bottom: 40%;
+}
+.forms {
+    text-align: left;
+    background-color: bisque !important;
+}
+
 @media only screen and (max-width: 800px) {
     .bg2 {
         display: none;
